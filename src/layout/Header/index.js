@@ -22,9 +22,11 @@ const Header = () => {
           
         </IconButton> */}
         <Typography variant="h6" className={classes.title}>
-          News
+          React Auth
         </Typography>
         <Button color="inherit">Login</Button>
+        <Button color="inherit">Profile</Button>
+        <Button color="inherit">Logout</Button>
       </Toolbar>
     </AppBar>
   );
